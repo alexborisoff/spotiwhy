@@ -9,7 +9,7 @@ export const fetchAudios = (): any => {
             dispatch({ type: AudioActionTypes.FETCH_AUDIO });
             setTimeout(() => {
                 dispatch({ type: AudioActionTypes.FETCH_AUDIO_SUCCESS, payload: audioData });
-            }, 3000);
+            }, 4000);
         } catch (e) {
             dispatch({ type: AudioActionTypes.FETCH_AUDIO_ERROR, payload: 'Was error' });
         }
