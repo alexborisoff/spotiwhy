@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: #000000;
+}
