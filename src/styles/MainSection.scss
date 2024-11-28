@@ -1,0 +1,15 @@
+.audioList {
+    padding: 3px;
+    background-color: #121212;
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.folderSection {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
