@@ -1,0 +1,17 @@
+.inputSearch {
+    background-color: #1f1f1f;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    height: 2.5rem;
+    width: 400px;
+    font-size: 1rem;
+    outline: none;
+    color: #fff;
+    transition: all 1s;
+
+    &:hover {
+        border: 1px solid #fff;
+        background: #333;
+    }
+}
