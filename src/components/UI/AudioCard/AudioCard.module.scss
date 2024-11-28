@@ -1,0 +1,31 @@
+.cardContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 600px;
+    gap: 40px;
+    color: #c0c0c0;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 7px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #2a2a2a;
+        color: #ffffff;
+    }
+
+    .trackInfo {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        .audioTitle {
+            font-weight: 700;
+        }
+    }
+}
