@@ -1,7 +1,7 @@
-import { Audio } from "../../local/models/Audio";
+import { Audio } from '../../local/models/Audio';
 
 export const audioData: Audio[] = [
-    { id: 1, audioTitle: 'Noganno', artistName: 'Зять', albumTitle: 'Noganno Part 2' },
+    { id: 1, audioTitle: 'Зять', artistName: 'Noggano', albumTitle: 'Noganno Part 2' },
     { id: 2, audioTitle: 'Getto', artistName: 'A$AP Rocky', albumTitle: '_ASAP_BAND' },
     { id: 3, audioTitle: 'Как Надо', artistName: 'ALBLAK 52', albumTitle: 'Long Life 812' },
     { id: 4, audioTitle: 'В порядке', artistName: 'T-Fest', albumTitle: 'Цвети либо погибни' },
