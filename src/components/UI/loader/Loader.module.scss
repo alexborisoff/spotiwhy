@@ -4,10 +4,11 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
+    width: 00px;
 
     .loader {
         height: 3rem;
-        width: 3rem;
+        width: 4rem;
         display: flex;
         transform: rotate(180deg);
 
