@@ -1,8 +1,11 @@
-import { ChangeEvent, useState } from 'react';
-import { SearchInput } from './UI/searchInput/SearchInput';
+import { ChangeEvent, useMemo, useState } from 'react';
+import { SearchBar } from './UI/SearchBar/SearchBar';
 
 export const Header = () => {
+    const [selectedSort, setSelectedSort] = useState<string>('');
     const [search, setSearch] = useState<string>('');
+
+    const sortedAudios = useMemo(() => {}, [selectedSort]);
 
     const changeHandler = (e: ChangeEvent<HTMLInputElement>) => {
         setSearch(e.target.value);
@@ -10,7 +13,11 @@ export const Header = () => {
 
     return (
         <header>
-            <SearchInput value={search} placeholder="What do you want to play?" onChange={changeHandler} />
+            <SearchBar
+                value={search}
+                placeholder="What do you want to play?"
+                onChange={changeHandler}
+            />
         </header>
     );
 };
